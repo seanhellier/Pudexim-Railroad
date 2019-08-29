@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Train Scheduler</title>
+
+  <meta charset="UTF-8">
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 
+   <title>Train Scheduler</title>
+
 </head>
+
 <body>
-    
+
+  <!-- An utterly ugly form! -->
+  <label for="name-input">Name:</label>
+  <input class="form-control" id="name-input" type="text">
+  <label for="age-input">Age:</label>
+  <input class="form-control" id="age-input" type="text">
+  <label for="phone-input">Phone:</label>
+  <input class="form-control" id="phone-input" type="text">
+
+  <!-- Submit Button -->
+  <button id="click-button" type="submit">Submit</button>
+
+  <hr>
+
+  <!-- Displayed Data -->
+  <div id="displayed-data"></div>
+
+
+
+
+  
+
+  <!-- ====================================================================== -->
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Firebase Core JavaScript Link -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+  <!-- Specific Firebase products we want (Database) -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+  <script src="./assets/javascript/logic.js"></script>
+
+  
+
 </body>
+
 </html>
