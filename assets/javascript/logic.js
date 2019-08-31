@@ -17,8 +17,10 @@
     // Initial Variables (SET the first set IN FIREBASE FIRST)
     // Note remember to create these same variables in Firebase!
     var name = "";
-    var age = "";
-    var phone = "";
+    var destination = "";
+    var departure = "";
+    var interval = "";
+
 
     // Click Button changes what is stored in firebase
     $("#click-button").on("click", function(event) {
@@ -27,14 +29,16 @@
 
       // Get inputs
       name = $("#name-input").val().trim();
-      age = $("#age-input").val().trim();
-      phone = $("#phone-input").val().trim();
+      destination = $("#destination-input").val().trim();
+      departure = $("#departure-input").val().trim();
+      interval = $("#interval-input").val().trim();
 
       // Change what is saved in firebase
       database.ref().set({
         name: name,
-        age: age,
-        phone: phone
+        destination: destination,
+        departure: departure,
+        interval: interval
       });
     });
 
@@ -47,11 +51,12 @@
 
       // Log the value of the various properties
       console.log(snapshot.val().name);
-      console.log(snapshot.val().age);
-      console.log(snapshot.val().phone);
+      console.log(snapshot.val().destination);
+      console.log(snapshot.val().init-departure);
+      console.log(snapshot.val().interval);
 
       // Change the HTML
-      $("#displayed-data").text(snapshot.val().name + " | " + snapshot.val().age + " | " + snapshot.val().phone);
+      $("#displayed-data").text(snapshot.val().name + " | " + snapshot.val().destination + " | " + snapshot.val().init-departure + " | " + snapshot.val().interval);
 
       // If any errors are experienced, log them to console.
     }, function(errorObject) {
