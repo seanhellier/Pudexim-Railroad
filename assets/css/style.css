@@ -1,0 +1,58 @@
+.jumbotron{   
+padding-top: 0px;
+padding-bottom:0px;
+background-image:url('images/car/car.jpg');
+background-size: cover;
+height:100px;
+ }
+
+#trainTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#trainTable td,
+#trainTable th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#trainTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#trainTable tr:hover {
+    background-color: #ddd;
+}
+
+#trainTable th {
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.min {
+    text-align: center;
+}
+
+#trainTable #times {
+    text-align: center;
+}
+
+.clock {
+    /* position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    color: rgb(84, 95, 97);
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
