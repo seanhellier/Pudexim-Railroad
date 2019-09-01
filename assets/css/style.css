@@ -1,9 +1,17 @@
+body {background-color:rgb(209, 177, 129)
+
+}
+
 .jumbotron{   
 padding-top: 0px;
 padding-bottom:0px;
 background-image:url('images/car/car.jpg');
 background-size: cover;
 height:100px;
+ }
+
+ #banner {
+    margin-bottom: 25px;
  }
 
 #trainTable {
@@ -30,7 +38,7 @@ height:100px;
     height: 50px;
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #4CAF50;
     color: white;
 }
@@ -44,15 +52,8 @@ height:100px;
 }
 
 .clock {
-    /* position: relative;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%); */
     color: rgb(84, 95, 97);
     font-size: 20px;
-    font-family: Orbitron;
+    /* font-family: Orbitron; */
     letter-spacing: 7px;
-   
-
-
 }
