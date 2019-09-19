@@ -5,7 +5,6 @@ body {background-color:rgb(209, 177, 129)
 .jumbotron{   
 padding-top: 0px;
 padding-bottom:0px;
-background-image:url('images/car/car.jpg');
 background-size: cover;
 height:100px;
  }
