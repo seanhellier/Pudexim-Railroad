@@ -1,6 +1,8 @@
 # train-scheduler
 
-Pudexim Railroad is a javascript app name for my grandfather's legendary model train layout. The name is Mixedup Railroad, spelled backwards. He named his layout that because it included trains modeled from real trains in Europe, North Americ, and Asia.
+Pudexim Railroad is a javascript app name for my grandfather's legendary model train layout. (The name is Mixedup Railroad, spelled backwards. He named his layout that because it included trains modeled from real trains in Europe, North Americ, and Asia).
+
+It is a javascript and moment.js app that allows one to schedule trains and see arrival and interval times.
 
 ### Prerequisites
 
@@ -13,7 +15,7 @@ To use this software, either clone or download and extract the files to a locati
 
 After establishing the repository on your computer, open a terminal and enter "npm install moment --save" to install Moment.js, required to handle the timekeeping process.
 
-Run the software by entering "npm start" in a terminal window.
+Run the software by launching index.html in a browswer.
 
 ## Built With
 
