@@ -1,4 +1,4 @@
-# train-scheduler
+![Pudexim Railroad](../images/background.jpg)
 
 Pudexim Railroad is a javascript app name for my grandfather's legendary model train layout. (The name is Mixedup Railroad, spelled backwards. He named his layout that because it included trains modeled from real trains in Europe, North Americ, and Asia).
 
@@ -11,11 +11,19 @@ It is a javascript and moment.js app that allows one to schedule trains and see 
 
 ## Getting Started
 
-To use this software, either clone or download and extract the files to a location of your choosing on your computer. To clone the repository, copy the clone link, open a terminal window and enter "git clone (repository link)"
-
-After establishing the repository on your computer, open a terminal and enter "npm install moment --save" to install Moment.js, required to handle the timekeeping process.
+To use this software, either clone or download and extract the files to a location of your choosing on your computer. To clone the repository, copy the clone link, open a terminal window and enter "https://github.com/seanhellier/Pudexim-Railroad.git"
 
 Run the software by launching index.html in a browswer.
+
+![Use](../images/formFilled.jpg)
+
+Fill out the form, listing the name of the train you wish to add to the schedule, as well as the departure time and the frequency of departures, then submit the entry.
+
+The train will be added to the schedule board above the form
+
+![Success!](../images/trainAdded.jpg)
+
+
 
 ## Built With
 
@@ -49,8 +57,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 The current time clock is not mine. I found the boilerplate code on the internet and included it.
 
-PS: the link to my portfolio page is https://seanhellier.github.io/new-portfolio/portfolio.html
+PS: the link to my portfolio page is https://seanhellier.github.io/slh_portfolio/
 
-the link to this project is https://seanhellier.github.io/train-scheduler/
+the link to this project is https://seanhellier.github.io/Pudexim-Railroad/
 
-the link to the github repository for this project is https://github.com/seanhellier/train-scheduler
+the link to the github repository for this project is https://github.com/seanhellier/Pudexim-Railroad

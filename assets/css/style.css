@@ -1,58 +1,67 @@
-body {background-color:rgb(209, 177, 129)
+/* body {background-color:rgb(209, 177, 129)
 
+} */
+body {
+	/* background-image: url("./assets/images/background.jpg");
+	background-color: #d60e1e; */
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
-.jumbotron{   
-padding-top: 0px;
-padding-bottom:0px;
-background-size: cover;
-height:100px;
- }
+.jumbotron {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-size: cover;
+	height: 100px;
+}
 
- #banner {
-    margin-bottom: 25px;
- }
+#banner {
+	margin-bottom: 25px;
+}
 
 #trainTable {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 #trainTable td,
 #trainTable th {
-    border: 1px solid #ddd;
-    padding: 10px;
+	border: 1px solid #ddd;
+	padding: 10px;
 }
 
 #trainTable tr:nth-child(even) {
-    background-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
 
 #trainTable tr:hover {
-    background-color: #ddd;
+	background-color: #ddd;
 }
 
 #trainTable th {
-    height: 50px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #4CAF50;
-    color: white;
+	height: 50px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #4caf50;
+	color: white;
 }
 
 .min {
-    text-align: center;
+	text-align: center;
 }
 
 #trainTable #times {
-    text-align: center;
+	text-align: center;
 }
 
 .clock {
-    color: rgb(84, 95, 97);
-    font-size: 20px;
-    /* font-family: Orbitron; */
-    letter-spacing: 7px;
+	color: rgb(84, 95, 97);
+	font-size: 20px;
+	/* font-family: Orbitron; */
+	letter-spacing: 7px;
 }
